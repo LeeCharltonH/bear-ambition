@@ -1,0 +1,21 @@
+@import "../../../sassStyles/fonts.scss";
+@import "../../../sassStyles/colours.scss";
+
+.nav {
+    width: 100%;
+    background-color: $lightGold;
+    min-height: 40px;
+}
+.ul {
+    list-style:none;
+    background-color: gray;
+    position: absolute;
+    right: 20px;
+}
+
+.ul li {
+    display: block;
+    float: left;
+    padding: 0px 10px;
+}
+

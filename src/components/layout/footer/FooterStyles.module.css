@@ -1,0 +1,11 @@
+@import "../../../sassStyles/fonts.scss";
+@import "../../../sassStyles/colours.scss";
+
+.footer {
+    background-color: black;
+    margin-top: auto;
+    padding: 40px 30px;
+    color: #f4fcfb;
+  }
+
+  

@@ -1,0 +1,47 @@
+@import "./sassStyles/fonts.scss";
+@import "./sassStyles/colours.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: JosefinSans, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingFont;
+  color: $greyBlue;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  margin: 10px 0px;
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1em;
+  margin: 0;
+}
+
+p {
+  font-family: $bodyFont;
+  color: $greyBlue;
+}
+
+
