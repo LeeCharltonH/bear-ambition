@@ -1,0 +1,68 @@
+@import "../../../sass/combinedStyles.scss";
+
+.header{
+    min-height: 100vh;
+    background-color: #070709;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+        position: absolute;
+        
+    }
+}
+
+.introContainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introContainer::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    opacity: 0.4;
+    background-image: radial-gradient(at center center, rgba(0, 0, 0, 1) 0px, rgba(0, 0, 0, 0) 50%);
+}
+
+.introContainerContent{
+    max-width: 500px;
+    z-index: 1;
+}
+
+.introItem {
+    color: $white;
+    z-index: 2;
+    font-size: 1.5em;
+    text-align: center;
+    h1, p {
+        color: white;
+        z-index: 2;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-family: $bodyFont;
+        background-color: $gold;
+        font-size: 0.8em;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header{
+        img {
+            width: 1200px;
+            max-width: 1200px;
+        }
+    }
+}

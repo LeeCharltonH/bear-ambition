@@ -1,5 +1,4 @@
-@import "./sassStyles/fonts.scss";
-@import "./sassStyles/colours.scss";
+@import "./sass/combinedStyles.scss";
 
 * {
   margin: 0;
@@ -13,6 +12,9 @@ body {
   display: flex;
   flex-direction: column;
   font-family: JosefinSans, serif;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
 }
 
 h1,
