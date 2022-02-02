@@ -1,11 +1,10 @@
-import styles from './FooterStyles.module.scss'
+import styles from "./FooterStyles.module.scss";
 
 function Footer() {
   return (
-    <div className={styles.footer}>
-      <footer>Footer</footer>
-    </div>
-  );
-}
+    <footer className={styles.footer}>
+      footer
+    </footer>);
+};
 
 export default Footer;

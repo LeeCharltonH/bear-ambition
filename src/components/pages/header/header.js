@@ -2,7 +2,7 @@ import styles from "./HeaderStyles.module.scss";
 
 function Header() {
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <img src={require("../../../assets/images/banner_low_exp.jpg")} />
       <div className={styles.introContainer}>
         <div className={styles.introContainerContent}>
@@ -21,7 +21,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

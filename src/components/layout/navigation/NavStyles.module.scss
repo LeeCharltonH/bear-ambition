@@ -20,12 +20,14 @@
     right: 20px;
     top:50%;
     transform: translateY(-50%);
+    li {
+        display: block;
+        float: left;
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+    .link {
+        text-decoration: none;
+        color: $greyBlue;
+    }
 }
-
-.ul li {
-    display: block;
-    float: left;
-    padding: 0px 10px;
-    cursor: pointer;
-}
-

@@ -2,9 +2,9 @@ import styles from "./PricingStyles.module.scss";
 
 function Pricing() {
   return (
-    <div>
+    <section id="pricing">
       <h2>Pricing</h2>
-    </div>
+    </section>
   );
 }
 
