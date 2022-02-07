@@ -5,7 +5,7 @@ import Flex from "../../common/flex/flex";
 
 function Products() {
   return (
-    <ContentSection id="services" h2="Services">
+    <ContentSection id="services">
       <Flex>
         <Card
           alt="Online coaching icon"

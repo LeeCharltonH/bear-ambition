@@ -1,10 +1,53 @@
 @import "../../../sass/combinedStyles.scss";
 
 .footer {
-    background-color: black;
-    margin-top: auto;
-    padding: 40px 30px;
-    color: #f4fcfb;
+  background-color: black;
+  margin-top: auto;
+  padding: 40px 30px;
+  color: $white;
+  .footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
   }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  li {
+    display: block;
+    float: left;
+    padding: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+  .icon{
+    font-size: 1.2em;
+  }
+  a:hover {
+    text-decoration: none;
+    color: $white;
+  }
+  p {
+    color: $white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .copyRight {
+    font-weight: 100;
+  }
+}
 
-  
+@media (max-width: 600px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+    div {
+      padding: 10px 0px;
+    }
+  }
+}
