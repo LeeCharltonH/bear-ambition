@@ -4,8 +4,7 @@ function Main(props) {
   return (
     <main className={styles.main}>
       {props.children}
-    </main>
-  );
-}
+    </main>);
+};
 
 export default Main;

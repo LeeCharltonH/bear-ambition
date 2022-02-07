@@ -1,10 +1,11 @@
 import styles from "./ContactStyles.module.scss";
+import ContentSection from "../../common/contentSection/contentSection";
 
 function Contact() {
   return (
-    <section id="contact">
-      <h2>Contact</h2>
-    </section>
+    <ContentSection id="contact" h2="Contact">
+
+    </ContentSection>
   );
 }
 
