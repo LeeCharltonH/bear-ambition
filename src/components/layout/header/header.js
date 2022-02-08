@@ -1,4 +1,5 @@
 import styles from "./HeaderStyles.module.scss";
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
   return (
@@ -17,7 +18,7 @@ function Header() {
             </p>
           </div>
           <div className={styles.introItem}>
-            <button type="button">BOOK NOW</button>
+          <HashLink smooth to="/#contact" className={styles.link}><button type="button">BOOK NOW</button></HashLink>
           </div>
         </div>
       </div>

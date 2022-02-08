@@ -1,33 +1,111 @@
 @import "../../../sass/combinedStyles.scss";
 
 .nav {
-    width: 100%;
-    background-color: $white;
-    min-height: 40px;
-    text-align: center;
-    position: fixed;
-    z-index: 4;
-    img {
-        width: 75px;
-        border-radius: 50%;
-        position: absolute;
-        transform: translateX(-50%);
-    }
+  width: 100%;
+  background-color: $white;
+  min-height: 45px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  img {
+    width: 75px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
 }
 .ul {
-    list-style:none;
+  list-style: none;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  li {
+    display: block;
+    float: left;
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+}
+.link {
+    text-decoration: none;
+    color: $greyBlue;
+  }
+
+.hide{
+    display: none;
+}
+
+@media (max-width: 660px) {
+  .ul {
+    display: none;
+  }
+  //navigation animation source: https://codepen.io/Bilal1909/pen/KKdrmRP
+  .burgerNav {
+    z-index: 5;
+    top: 3px;
+    right: 15px;
     position: absolute;
-    right: 20px;
-    top:50%;
-    transform: translateY(-50%);
+    width: 40px;
+  }
+
+  .burgerNav:before,
+  .burgerNav:after,
+  .burgerNav div {
+    background: black;
+    content: "";
+    display: block;
+    height: 4px;
+    border-radius: 3px;
+    margin: 6px 0;
+    transition: 0.5s;
+  }
+  .burgerNavX:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+  .burgerNavX:after {
+    transform: translateY(-9px) rotate(-135deg);
+  }
+  .burgerNavX div {
+    transform: scale(0);
+  }
+  .mobileNav {
+    position: fixed;
+    background-color: $white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    ul {
+      width: 100%;
+      padding: 100px 0px;
+    }
     li {
-        display: block;
-        float: left;
-        padding: 0px 10px;
-        cursor: pointer;
+      display: block;
+      margin: auto;
+      padding: 20px 0px;
+      box-sizing: border-box;
+      color: #2c4255;
+      font-size: 2.5em;
+      border-bottom: 1px solid black;
     }
-    .link {
-        text-decoration: none;
-        color: $greyBlue;
+    a {
+      color: #2c4255;
     }
+    a:hover {
+      text-decoration: none;
+      color: #2c4255;
+    }
+    ul.socials {
+        position: absolute;
+        bottom: 75px;
+        padding: 0;
+        li {
+        display: inline-block;
+        padding: 0 10px;
+        font-size: 2em;
+        border:none;
+    }
+}
+  }
 }
