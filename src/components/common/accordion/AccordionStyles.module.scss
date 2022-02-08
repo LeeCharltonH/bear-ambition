@@ -3,7 +3,7 @@
 
 
 .accordionHeader{
-    background-color: salmon;
+    background-color: $lightBlue;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -27,7 +27,7 @@
 }
 
 .active, .accordionHeader:hover{
-    background-color: sandybrown;
+    background-color: $lightGold;
 }
 
 .accordionBody{
@@ -38,6 +38,6 @@
 
 @media (max-width: 600px){
     .active, .accordionHeader:hover{
-        background-color: salmon;
+        background-color: $lightGold;
     }
 }

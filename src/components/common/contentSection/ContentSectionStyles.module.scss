@@ -1,11 +1,14 @@
 @import "../../../sass/combinedStyles.scss";
 
-.contentBlockItem{
-    max-width: 900px;
-    margin: auto;
-    padding: 35px 20px;
+.contentBlockItem {
+  max-width: 1000px;
+  margin: auto;
+  padding: 35px 20px;
 }
 
 .contentBlock:nth-child(even) {
-    background-color: lightgray;
+  background-color: $darkBlue;
+  h2, h3 {
+    color: $white;
+  }
 }
