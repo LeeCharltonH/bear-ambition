@@ -1,9 +1,10 @@
 import styles from "./ContactStyles.module.scss";
 import ContentSection from "../../common/contentSection/contentSection";
+import Map from "../../common/map/map";
 
 function Contact() {
   return (
-    <ContentSection id="contact" h2="Contact">
+    <ContentSection h2="Contact" id="contact">
       <div className={styles.formContainer}>
         <form
           action="https://formspree.io/f/mvodevrl"
@@ -23,18 +24,26 @@ function Contact() {
             <input type="email" id="email" required />
           </div>
           <div className={styles.formField}>
+            <label htmlFor="service">Service</label>
+            <select id="service">
+              <option value="au">Online coaching</option>
+              <option value="ca">Fitness Plans</option>
+              <option value="usa">In Person Coaching</option>
+            </select>
+          </div>
+          <div className={styles.formField}>
             <label htmlFor="message">Message</label>
-            <textarea
-              rows='5'
-              id="message"
-            ></textarea>
+            <textarea rows="5" id="message"></textarea>
           </div>
           <div className={styles.formField}>
             <button>Submit</button>
           </div>
         </form>
         <div className={styles.contactFormImage}>
-          <img src={require("../../../assets/images/Edd.JPG")}alt="Picture of Edd" />
+          <img
+            src={require("../../../assets/images/Edd.JPG")}
+            alt="Picture of Edd"
+          />
         </div>
       </div>
     </ContentSection>

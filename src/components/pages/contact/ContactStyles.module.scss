@@ -1,57 +1,82 @@
 @import "../../../sass/combinedStyles.scss";
 
-
-.formContainer{
-    display: flex;
-    width: 100%;
+.formContainer {
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: -00px;
 }
 
 form {
-    font-family: $bodyFont;
-    width: 50%;
-    label, input, textarea {
-        display: block;
-        width: 100%;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-    }
+  font-family: $bodyFont;
+  width: 50%;
+  label,
+  input,
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
 }
 
 .contactFormImage {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    img {
-        border-radius: 50%;
-        width: 270px;
-    }
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    border-radius: 50%;
+    width: 270px;
+  }
 }
 
-.formField button {
+.formField {
+    input, select, textarea{
+        border-radius: 0px;
+        border: 2px solid gray;
+        padding: 5px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    input:focus, select:focus, textarea:focus{
+        border: 2px solid $darkBlue;
+        outline: none;
+    }
+  button {
     margin: 5px 0px;
     border-radius: 0px;
     border: none;
     padding: 10px 20px;
     background-color: #c29b6c;
-    color:black;
+    color: black;
     font-weight: bold;
     font-family: $bodyFont;
     font-size: 1.2em;
+  }
 }
 
+.map {
+  position: absolute;
+  top: -95px;
+  left: -20px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
 
 @media (max-width: 600px) {
-    .formContainer{
-        flex-direction: column;
-    }
-    form{
-        width: 100%;
-    }
-    .contactFormImage {
-        width: 100%;
-        padding: 20px 10px;
-    }
+  .formContainer {
+    flex-direction: column;
+  }
+  form {
+    width: 100%;
+  }
+  .contactFormImage {
+    width: 100%;
+    padding: 20px 10px;
+  }
 }

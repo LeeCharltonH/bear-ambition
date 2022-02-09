@@ -1,9 +1,15 @@
 @import "../../../sass/combinedStyles.scss";
 
+.contentBlock{
+    z-index: 100;
+}
+
 .contentBlockItem {
   max-width: 1000px;
   margin: auto;
   padding: 35px 20px;
+  background-color: transparent;
+  
 }
 
 .contentBlock:nth-child(even) {
