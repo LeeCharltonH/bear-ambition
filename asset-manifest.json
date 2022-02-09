@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bear-ambition/static/css/main.d9dea17a.css",
+    "main.js": "/bear-ambition/static/js/main.b08dff10.js",
+    "static/media/Edd.JPG": "/bear-ambition/static/media/Edd.c41c9f08716835228063.JPG",
+    "static/media/Cardo-Regular.ttf": "/bear-ambition/static/media/Cardo-Regular.a0c1dc80c66cc03bfa1e.ttf",
+    "static/media/Cardo-Bold.ttf": "/bear-ambition/static/media/Cardo-Bold.d7bf1aa6f322a64b2fc3.ttf",
+    "static/media/banner_low_exp.jpg": "/bear-ambition/static/media/banner_low_exp.f08d512e6d940d87a2d0.jpg",
+    "static/media/Cardo-Italic.ttf": "/bear-ambition/static/media/Cardo-Italic.0935d2ebbc05be3559b1.ttf",
+    "static/media/JosefinSans-Italic-VariableFont_wght.ttf": "/bear-ambition/static/media/JosefinSans-Italic-VariableFont_wght.bbf3304309b5727f38fa.ttf",
+    "static/media/JosefinSans-VariableFont_wght.ttf": "/bear-ambition/static/media/JosefinSans-VariableFont_wght.762df0b3ada8d7e38f03.ttf",
+    "static/media/JosefinSans-ExtraLightItalic.ttf": "/bear-ambition/static/media/JosefinSans-ExtraLightItalic.8974eee28e1cf90e563b.ttf",
+    "static/media/JosefinSans-BoldItalic.ttf": "/bear-ambition/static/media/JosefinSans-BoldItalic.5d3562a1f48c8e7797b9.ttf",
+    "static/media/JosefinSans-ExtraLight.ttf": "/bear-ambition/static/media/JosefinSans-ExtraLight.c69de4ac6b8b0d6e1929.ttf",
+    "static/media/JosefinSans-Bold.ttf": "/bear-ambition/static/media/JosefinSans-Bold.958fefb32cf3d337d5bf.ttf",
+    "static/media/hplogo.jpg": "/bear-ambition/static/media/hplogo.0ce4accd408b2042aeb2.jpg",
+    "static/media/bearIcon.png": "/bear-ambition/static/media/bearIcon.dd47bc83dc114e3796b3.png",
+    "index.html": "/bear-ambition/index.html",
+    "main.d9dea17a.css.map": "/bear-ambition/static/css/main.d9dea17a.css.map",
+    "main.b08dff10.js.map": "/bear-ambition/static/js/main.b08dff10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9dea17a.css",
+    "static/js/main.b08dff10.js"
+  ]
+}
