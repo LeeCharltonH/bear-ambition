@@ -63,7 +63,7 @@ function Contact() {
         <form
           action="https://formspree.io/f/mvodevrl"
           method="post"
-          enctype="multipart/form-data"
+          encType="multipart/form-data"
           onSubmit={formSubmit}
         >
           <div className={styles.formField}>
