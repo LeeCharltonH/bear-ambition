@@ -91,6 +91,7 @@ function Contact() {
           <div className={styles.formField}>
             <label htmlFor="service">Service</label>
             <select id="service" ref={serviceRef}>
+              <option value=""></option>
               <option value="Online Coaching">Online coaching</option>
               <option value="Fitness Plans">Fitness Plans</option>
               <option value="In Person Coaching">In Person Coaching</option>

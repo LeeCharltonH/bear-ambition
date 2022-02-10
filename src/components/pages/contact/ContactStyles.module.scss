@@ -35,17 +35,32 @@ form {
 }
 
 .formField {
-    input, select, textarea{
-        border-radius: 0px;
-        border: 2px solid gray;
-        padding: 5px;
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
-    }
-    input:focus, select:focus, textarea:focus{
-        border: 2px solid $darkBlue;
-        outline: none;
-    }
+  input,
+  select,
+  textarea {
+    border-radius: 0px;
+    border: 2px solid gray;
+    padding: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  select {
+    background-image: url("../../../assets/images/downArrow.png"),
+      linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+    background-size: 10px;
+    background-repeat: no-repeat, repeat;
+
+    background-position: right 0.7em top 50%, 0 0;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border: 2px solid $darkBlue;
+    outline: none;
+  }
   button {
     margin: 5px 0px;
     border-radius: 0px;

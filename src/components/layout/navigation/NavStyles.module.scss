@@ -3,7 +3,7 @@
 .nav {
   width: 100%;
   background-color: $darkBlue;
-  min-height: 45px;
+  min-height: 55px;
   text-align: center;
   position: fixed;
   z-index: 4;
@@ -44,8 +44,8 @@
   //navigation animation source: https://codepen.io/Bilal1909/pen/KKdrmRP
   .burgerNav {
     z-index: 5;
-    top: 3px;
-    right: 15px;
+    top: 9px;
+    right: 20px;
     position: absolute;
     width: 40px;
   }
