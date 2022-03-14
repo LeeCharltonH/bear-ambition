@@ -12,11 +12,12 @@ function Map(props){
   
   const mapOptions = {
     center: {
-      lat: 51.5893093,
-      lng: -0.2532639
+      lat: 51.5862459,
+      lng: -0.220009
     },
-    zoom: 14,
-    mapID: "b661851301fea83d"
+    zoom: 13,
+    mapId: "b661851301fea83d",
+    disableDefaultUI: true
   };
 
   loader

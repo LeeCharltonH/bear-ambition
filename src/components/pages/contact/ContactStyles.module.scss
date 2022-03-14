@@ -38,8 +38,12 @@ form {
   input,
   select,
   textarea {
+    background-color: rgba(224, 224, 224, 0.301);
     border-radius: 0px;
-    border: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
     padding: 5px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -58,7 +62,7 @@ form {
   input:focus,
   select:focus,
   textarea:focus {
-    border: 2px solid $darkBlue;
+    
     outline: none;
   }
   button {
@@ -71,6 +75,7 @@ form {
     font-weight: bold;
     font-family: $bodyFont;
     font-size: 1.2em;
+    cursor: pointer;
   }
 }
 
