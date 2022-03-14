@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bear-ambition/static/css/main.43f8b85b.css",
-    "main.js": "/bear-ambition/static/js/main.726b1ca6.js",
+    "main.js": "/bear-ambition/static/js/main.8d14923c.js",
     "static/media/Edd.JPG": "/bear-ambition/static/media/Edd.c41c9f08716835228063.JPG",
     "static/media/Cardo-Regular.ttf": "/bear-ambition/static/media/Cardo-Regular.a0c1dc80c66cc03bfa1e.ttf",
     "static/media/Cardo-Bold.ttf": "/bear-ambition/static/media/Cardo-Bold.d7bf1aa6f322a64b2fc3.ttf",
@@ -17,10 +17,10 @@
     "static/media/bearIcon.png": "/bear-ambition/static/media/bearIcon.dd47bc83dc114e3796b3.png",
     "index.html": "/bear-ambition/index.html",
     "main.43f8b85b.css.map": "/bear-ambition/static/css/main.43f8b85b.css.map",
-    "main.726b1ca6.js.map": "/bear-ambition/static/js/main.726b1ca6.js.map"
+    "main.8d14923c.js.map": "/bear-ambition/static/js/main.8d14923c.js.map"
   },
   "entrypoints": [
     "static/css/main.43f8b85b.css",
-    "static/js/main.726b1ca6.js"
+    "static/js/main.8d14923c.js"
   ]
 }
