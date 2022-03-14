@@ -34,7 +34,6 @@ function Contact() {
     sendFormData(formSubmission);
   };
 
-
   const sendFormData = (formSubmission) => {
     fetch(
       "https://bear-ambition-5cf1b-default-rtdb.europe-west1.firebasedatabase.app/enquiries.json",
@@ -46,16 +45,14 @@ function Contact() {
         },
       }
     ).then(() => {
-      fNameRef.current.value = '';
-      lNameRef.current.value = '';
-      emailRef.current.value = '';
-      phoneRef.current.value = '';
-      serviceRef.current.value = '';
-      messageRef.current.value = '';
+      fNameRef.current.value = "";
+      lNameRef.current.value = "";
+      emailRef.current.value = "";
+      phoneRef.current.value = "";
+      serviceRef.current.value = "";
+      messageRef.current.value = "";
     });
   };
-
-  
 
   return (
     <ContentSection h2="Contact" id="contact">
@@ -65,6 +62,7 @@ function Contact() {
           method="post"
           encType="multipart/form-data"
           onSubmit={formSubmit}
+          class="contact-form"
         >
           <div className={styles.formField}>
             <label htmlFor="fname">First name *</label>
@@ -102,7 +100,7 @@ function Contact() {
             <textarea rows="5" id="message" ref={messageRef}></textarea>
           </div>
           <div className={styles.formField}>
-            <button>Submit</button>
+            <button class="contact-form-btn">Submit</button>
           </div>
         </form>
         <div className={styles.contactFormImage}>
