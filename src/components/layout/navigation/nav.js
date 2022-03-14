@@ -29,22 +29,22 @@ function Navigation() {
 
   return (
     <nav className={styles.nav}>
-      <HashLink smooth to="/#">
+      <HashLink smooth to="/bear-ambition/#">
         <img src={require("../../../assets/images/hplogo.jpg")} />
       </HashLink>
       <ul className={styles.ul}>
         <li>
-          <HashLink smooth to="/#services" className={styles.link}>
+          <HashLink smooth to="/bear-ambition/#services" className={styles.link}>
             Services
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="/#pricing" className={styles.link}>
+          <HashLink smooth to="/bear-ambition/#pricing" className={styles.link}>
             Pricing
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="/#contact" className={styles.link}>
+          <HashLink smooth to="/bear-ambition/#contact" className={styles.link}>
             Contact
           </HashLink>
         </li>
@@ -64,17 +64,17 @@ function Navigation() {
       >
         <ul>
           <li className={styles.mobileNavLi}>
-            <HashLink smooth to="/#services" className={styles.link}>
+            <HashLink smooth to="/bear-ambition/#services" className={styles.link}>
               Services
             </HashLink>
           </li>
           <li className={styles.mobileNavLi}>
-            <HashLink smooth to="/#pricing" className={styles.link}>
+            <HashLink smooth to="/bear-ambition/#pricing" className={styles.link}>
               Pricing
             </HashLink>
           </li>
           <li className={styles.mobileNavLi}>
-            <HashLink smooth to="/#contact" className={styles.link}>
+            <HashLink smooth to="/bear-ambition/#contact" className={styles.link}>
               Contact
             </HashLink>
           </li>

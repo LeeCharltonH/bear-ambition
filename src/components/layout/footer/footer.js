@@ -10,9 +10,9 @@ function Footer() {
         <div>
           <p>Quick links</p>
           <ul>
-            <li><HashLink smooth to="/#services" className={styles.link}>Services</HashLink></li>
-            <li><HashLink smooth to="/#pricing" className={styles.link}>Pricing</HashLink></li>
-            <li><HashLink smooth to="/#contact" className={styles.link}>Contact</HashLink></li>
+            <li><HashLink smooth to="/bear-ambition/#services" className={styles.link}>Services</HashLink></li>
+            <li><HashLink smooth to="/bear-ambition/#pricing" className={styles.link}>Pricing</HashLink></li>
+            <li><HashLink smooth to="/bear-ambition/#contact" className={styles.link}>Contact</HashLink></li>
           </ul>
         </div>
         <div>

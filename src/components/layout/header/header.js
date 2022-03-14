@@ -18,7 +18,7 @@ function Header() {
             </p>
           </div>
           <div className={styles.introItem}>
-            <HashLink smooth to="/#contact" className={styles.link}>
+            <HashLink smooth to="/bear-ambition/#contact" className={styles.link}>
               <button type="button" class="header-btn">BOOK NOW</button>
             </HashLink>
           </div>
