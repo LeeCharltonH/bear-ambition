@@ -9,6 +9,10 @@ function Accordion(props) {
     setAccordionOpen(!accordionOpen);
   };
 
+  const accordionStyles = `${styles.accordionBody} ${
+    accordionOpen ? styles.show : ""
+  }`;
+
   return (
     <div className={styles.accordionContainer}>
       <div
@@ -21,11 +25,9 @@ function Accordion(props) {
       >
         <h3>{props.title}</h3>
       </div>
-      {accordionOpen && (
-        <div className={styles.accordionBody} id="panel">
-          <p>{props.body}</p>
-        </div>
-      )}
+      <div className={accordionStyles} id="panel">
+        <p>{props.body}</p>
+      </div>
     </div>
   );
 }
