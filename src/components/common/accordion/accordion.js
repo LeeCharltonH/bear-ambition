@@ -13,6 +13,9 @@ function Accordion(props) {
     accordionOpen ? styles.show : ""
   }`;
 
+  const text = props.body;
+  const listItems = text.split('\n');
+
   return (
     <div className={styles.accordionContainer}>
       <div
@@ -26,7 +29,7 @@ function Accordion(props) {
         <h3>{props.title}</h3>
       </div>
       <div className={accordionStyles} id="panel">
-        <p>{props.body}</p>
+        <ul>{listItems.map(str => <li key={Math.random()}>{str}</li>)}</ul>
       </div>
     </div>
   );

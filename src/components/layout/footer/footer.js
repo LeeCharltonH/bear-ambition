@@ -39,7 +39,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <p className={styles.copyRight}>&#169; Bear Amition</p>
+      <p className={styles.copyRight}>&#169; Bear Ambition</p>
     </footer>
   );
 }

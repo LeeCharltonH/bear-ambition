@@ -43,6 +43,10 @@
     transform-origin: top center;
 }
 
+li {
+  margin-left: 10px;
+}
+
 @keyframes reveal {
     from{transform: scaleY(0);}
     to{transform: scaleY(1);}

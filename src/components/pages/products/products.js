@@ -10,23 +10,35 @@ function Products() {
         <Card
           alt="Online coaching icon"
           h2="Online Coaching"
-          p="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor illum,
-          modi labore, officiis ullam inventore eum eveniet, consequuntur neque
-          officia eos."
+          p={`Need the motivation to stay on track. Online training is a bespoke training plan which will work for you in the comfort of your own home. Save on travelling to the gym.
+          \n
+          All session will start with a workout assessment and conversation around your specific goals. 
+          \n
+          You will receive a workout programme for either use in the gym or at home alongside 1:2:1 training over WhatsApp, Zoom or Instagram.
+          \n
+          Programmes are developed to work for the space you have available and any equipment you may or may not have. 
+          `}
         ></Card>
         <Card
           alt="Online coaching icon"
-          h2="Fitness Plans"
-          p="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor illum,
-          modi labore, officiis ullam inventore eum eveniet, consequuntur neque
-          officia eos."
+          h2="One to One Personal Training"
+          p={`One to One training sessions are bespoke programmes tailored to your goals. 
+          \n
+          You will leave the session with a workout plan for you to continue to use in your own time. 
+          \n
+          If you’re working towards a specific deadline or goal we can build a set plan to support you to hitting your goals. `}
         ></Card>
         <Card
           alt="Online coaching icon"
-          h2="In Person Coaching"
-          p="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor illum,
-          modi labore, officiis ullam inventore eum eveniet, consequuntur neque
-          officia eos."
+          h2="Bespoke Programme Design"
+          p={`Stuck with your current workout regimen. I will build you a personalised workout plan for your goals and time period. 
+          \n
+          Includes a virtual consultation to assess your current fitness session. 
+          \n
+          Goal setting with your body fat percentage and bmi and target plan for the completion of the plan. 
+          \n
+          A set of workout programmes for 6 or 8 weeks available. Check ins on your plan progression and video tutorials available. 
+          `}
         ></Card>
       </Flex>
     </ContentSection>
