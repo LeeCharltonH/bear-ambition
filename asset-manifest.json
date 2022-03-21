@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bear-ambition/static/css/main.c034aa29.css",
-    "main.js": "/bear-ambition/static/js/main.baa94e12.js",
+    "main.css": "/bear-ambition/static/css/main.51bf360f.css",
+    "main.js": "/bear-ambition/static/js/main.aa873bf7.js",
     "static/media/Edd.JPG": "/bear-ambition/static/media/Edd.c41c9f08716835228063.JPG",
     "static/media/Cardo-Regular.ttf": "/bear-ambition/static/media/Cardo-Regular.a0c1dc80c66cc03bfa1e.ttf",
     "static/media/Cardo-Bold.ttf": "/bear-ambition/static/media/Cardo-Bold.d7bf1aa6f322a64b2fc3.ttf",
@@ -16,11 +16,11 @@
     "static/media/hplogo.jpg": "/bear-ambition/static/media/hplogo.0ce4accd408b2042aeb2.jpg",
     "static/media/bearIcon.png": "/bear-ambition/static/media/bearIcon.dd47bc83dc114e3796b3.png",
     "index.html": "/bear-ambition/index.html",
-    "main.c034aa29.css.map": "/bear-ambition/static/css/main.c034aa29.css.map",
-    "main.baa94e12.js.map": "/bear-ambition/static/js/main.baa94e12.js.map"
+    "main.51bf360f.css.map": "/bear-ambition/static/css/main.51bf360f.css.map",
+    "main.aa873bf7.js.map": "/bear-ambition/static/js/main.aa873bf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c034aa29.css",
-    "static/js/main.baa94e12.js"
+    "static/css/main.51bf360f.css",
+    "static/js/main.aa873bf7.js"
   ]
 }
