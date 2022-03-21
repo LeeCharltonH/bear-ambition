@@ -8,6 +8,7 @@ function Products() {
     <ContentSection id="services">
       <Flex>
         <Card
+        src={require("../../../assets/images/services-online-coaching.png")}
           alt="Online coaching icon"
           h2="Online Coaching"
           p={`Need the motivation to stay on track. Online training is a bespoke training plan which will work for you in the comfort of your own home. Save on travelling to the gym.
@@ -20,6 +21,7 @@ function Products() {
           `}
         ></Card>
         <Card
+        src={require("../../../assets/images/services-one-to-one.jpeg")}
           alt="Online coaching icon"
           h2="One to One Personal Training"
           p={`One to One training sessions are bespoke programmes tailored to your goals. 
@@ -29,6 +31,7 @@ function Products() {
           If you’re working towards a specific deadline or goal we can build a set plan to support you to hitting your goals. `}
         ></Card>
         <Card
+        src={require("../../../assets/images/services-bespoke.png")}
           alt="Online coaching icon"
           h2="Bespoke Programme Design"
           p={`Stuck with your current workout regimen. I will build you a personalised workout plan for your goals and time period. 
