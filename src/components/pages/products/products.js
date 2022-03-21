@@ -11,13 +11,15 @@ function Products() {
         src={require("../../../assets/images/services-online-coaching.png")}
           alt="Online coaching icon"
           h2="Online Coaching"
-          p={`Need the motivation to stay on track. Online training is a bespoke training plan which will work for you in the comfort of your own home. Save on travelling to the gym.
+          p={`Need the motivation to stay on track?
+          \n 
+          Online training is a bespoke training plan which will work for you in the comfort of your own home. Save on the expense of travelling to the gym.
           \n
-          All session will start with a workout assessment and conversation around your specific goals. 
+          All sessions will start with a workout assessment and conversation around your specific goals. 
           \n
           You will receive a workout programme for either use in the gym or at home alongside 1:2:1 training over WhatsApp, Zoom or Instagram.
           \n
-          Programmes are developed to work for the space you have available and any equipment you may or may not have. 
+          Programmes are developed to work for the space and equipment you have available. 
           `}
         ></Card>
         <Card
@@ -34,7 +36,9 @@ function Products() {
         src={require("../../../assets/images/services-bespoke.png")}
           alt="Online coaching icon"
           h2="Bespoke Programme Design"
-          p={`Stuck with your current workout regimen. I will build you a personalised workout plan for your goals and time period. 
+          p={`Stuck with your current workout regimen?
+          \n 
+          I will build you a personalised workout plan for your goals and time period. 
           \n
           Includes a virtual consultation to assess your current fitness session. 
           \n
